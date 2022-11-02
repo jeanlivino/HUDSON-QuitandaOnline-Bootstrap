@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="/node_modules/bootstrap-icons/font/bootstrap-icons.css">
     <link rel="stylesheet" href="/css/estilos.css">
 
-    <title>Quitanda Online :: Área do Cliente</title>
+    <title>Quitanda Online :: Área do Cliente :: Dados Pessoais</title>
 </head>
 
 <body>
@@ -91,7 +91,20 @@
                         </div>
                     </div>
                     <div class="col-8">
-
+                        <form action="">
+                            <div class="form-floating mb-3">
+                                <input class="form-control" type="text" id="txtNome" placeholder=" " autofocus />
+                                <label for="txtNome">Nome</label>
+                            </div>
+                            <div class="form-floating mb-3 col-md-6 col-xl-4">
+                                <input class="form-control" type="text" id="txtCPF" placeholder=" " />
+                                <label for="txtCPF">CPF</label>
+                            </div>
+                            <div class="form-floating mb-3 col-md-6 col-xl-4">
+                                <input class="form-control" type="date" id="txtDataNascimento" placeholder=" " />
+                                <label for="txtDataNascimento">Data de Nascimento</label>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
